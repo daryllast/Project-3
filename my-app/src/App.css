@@ -1,11 +1,20 @@
 body{
-  background-color: #9266ff;
+  background-color: #31326f;
 }
 .App{
-  background-color: #3f3160;
+  background-color: #9ddfd3;
   min-height:500px;
   width: 400px;
   margin: 40px auto;
+}
+
+h1{
+  display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #fff;
+    text-decoration: underline;
 }
 
 #to-do-form input{
@@ -30,7 +39,7 @@ body{
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color:rgba(202, 156, 24, 1); 
+  background-color:#ffc93c; 
   cursor: pointer;
 }
 #to-do-form button:focus{
