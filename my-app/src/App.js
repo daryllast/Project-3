@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 import TodoList from './components/TodoList';
-import App2 from './App2';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -12,12 +12,13 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/todolist" exact component={TodoList} />
-          <Route path="/app2" exact component={App2} />
+          <Route path="/contactform" exact component={Contact} />
         </Switch>
       </Router>
-      <div className='todo-app'>
+      
+      {/* <div className='todo-app'>
       <TodoList />
-      </div>
+      </div> */}
 
     </div>
   );

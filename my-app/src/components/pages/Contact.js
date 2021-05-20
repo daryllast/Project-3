@@ -1,13 +1,13 @@
 import React from "react";
-import "./index.css";
+import "./contact.css";
 
-export default function App2() {
+export default function Contact() {
   return (
     <div class="form-container">
     <h1>Contact Information</h1>
       <form class="register-form">
         {/* Uncomment the next line to show the success message */}
-        {/* <div class="success-message">Success! Thank you for registering</div> */}
+        
         <input
           id="first-name"
           class="form-field"
