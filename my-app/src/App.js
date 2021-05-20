@@ -16,9 +16,7 @@ function App() {
         </Switch>
       </Router>
       
-      {/* <div className='todo-app'>
-      <TodoList />
-      </div> */}
+      
 
     </div>
   );

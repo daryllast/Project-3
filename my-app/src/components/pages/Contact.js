@@ -4,7 +4,7 @@ import "./contact.css";
 export default function Contact() {
   return (
     <div class="form-container">
-    <h1>Contact Information</h1>
+    <h1 class="contact-info">Contact Information</h1>
       <form class="register-form">
         {/* Uncomment the next line to show the success message */}
         

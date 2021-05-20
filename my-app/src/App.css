@@ -17,7 +17,7 @@ body {
 .todo-app {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: 520px;
   min-height: 600px;
   background: #000000;
@@ -145,4 +145,8 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+h1.contact-info{
+  color: black !important;
 }

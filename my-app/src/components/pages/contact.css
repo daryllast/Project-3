@@ -13,6 +13,8 @@ body {
 
 }
 
+
+
 .form-container {
   width: 360px;
   background-color: white;
@@ -79,3 +81,7 @@ h1 {
     align-content: center;
     justify-content: center;
   }
+
+  h1.contact-info{
+    color: black !important;
+}
