@@ -5,7 +5,8 @@ export default function Contact() {
   return (
     <div class="form-container">
     <h1 class="contact-info">Contact Information</h1>
-      <form class="register-form">
+      <form class="register-form" action="https://formspree.io/f/moqyebrr"
+  method="POST">
         {/* Uncomment the next line to show the success message */}
         
         <input
